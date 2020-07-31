@@ -1,0 +1,31 @@
+{    
+    "name": "jonatasfenske/correios",
+    "description": "A complete library to find addresses by zip code, calculate shipping and track orders on the Correios Webservice!",
+    "keywords": [
+        "JonatasFenske",
+        "Correios",
+        "CEP",
+        "Tracking",
+        "Quotes"
+    ],
+    "license": "MIT",
+    "homepage": "https://www.jonatasfenske.com",
+    "authors": [
+        {
+            "name": "Jônatas Fenske",
+            "email": "contato@jonatasfenske.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JonatasFenske\\Correios\\": "source/"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "guzzlehttp/guzzle": "7.0.*",
+        "fabpot/goutte": "*",
+        "nesbot/carbon": "*"    
+    }
+}
